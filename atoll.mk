@@ -93,6 +93,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
 
+# DSPVolumeSynchronizer
+PRODUCT_PACKAGES += \
+    DSPVolumeSynchronizer
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
