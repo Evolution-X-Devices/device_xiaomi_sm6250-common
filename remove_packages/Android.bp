@@ -1,0 +1,17 @@
+cc_prebuilt_binary {
+    name: "RemovePackagesAtoll",
+    overrides: [
+        "arcore",
+        "GoogleTTS",
+        "Photos",
+        "SoundAmplifierPrebuilt",
+        "SwitchAccessPrebuilt",
+        "talkback",
+        "Tycho",
+        "VoiceAccessPrebuilt",
+    ],
+    strip: {
+        none: true,
+    },
+    srcs: ["RemovePackagesAtoll"],
+}
