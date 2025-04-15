@@ -1,9 +1,9 @@
 [
   {
-    "repository": "android_hardware_sony_timekeep",
+    "repository": "Lineageos/android_hardware_sony_timekeep",
     "target_path": "hardware/sony/timekeep",
     "remote": "github-non-los",
-    "branch": "lineage-22.1"
+    "branch": "lineage-22.2"
   },
   {
     "repository": "hardware_xiaomi",
@@ -14,7 +14,7 @@
     "target_path": "kernel/xiaomi/sm6250"
   },
   {
-    "repository": "vendor_xiaomi_sm6250",
-    "target_path": "vendor/xiaomi/sm6250"
+    "repository": "vendor_xiaomi_sm6250-common",
+    "target_path": "vendor/xiaomi/sm6250-common"
   }
 ]
