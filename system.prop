@@ -33,4 +33,3 @@ vendor.sys.video.disable.ubwc=1
 
 # Enable background blur 
 ro.sf.blurs_are_expensive=1 # boosts gpu when blur is rendered
-ro.surface_flinger.supports_background_blur=1 # allows blur
